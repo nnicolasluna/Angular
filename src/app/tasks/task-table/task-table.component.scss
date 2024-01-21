@@ -1,0 +1,15 @@
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.item--image{
+    width: 115px;
+    height: 115px;
+    background-color: rgba(103, 103, 255, 0.277);
+}
+.item--contenido{
+    padding: 5px;
+}

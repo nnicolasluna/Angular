@@ -1,3 +1,8 @@
-<ng-container *ngFor="let task of taskList; let i = index">
-  <app-task-table-item [task]="task" (click)="openTask(task)"></app-task-table-item>
+<ng-container class="item" *ngFor="let task of taskList; let i = index">
+  <div class="item">
+    <div class="item--image">
+      
+    </div>
+    <div class="item--contenido"><app-task-table-item [task]="task" (click)="openTask(task)"></app-task-table-item></div>
+  </div>
 </ng-container>

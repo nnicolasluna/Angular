@@ -1,0 +1,17 @@
+#list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    background-color: rgba(232, 226, 226, 0.979);
+    width: 700px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+#create{
+    border: 10px black;
+}
